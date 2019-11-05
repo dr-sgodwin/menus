@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colors for background and text, 
+    each color pair is a primary and compliment -->
+    <color name="BlueBG">#0000CC</color>
+    <color name="BlueTxt">#FFFFEE</color>
+    <color name="GreenBG">#33CC33</color>
+    <color name="GreenTxt">#FF66CC</color>  
+    <color name="OrangeBG">#FF6600</color>
+    <color name="OrangeTxt">#00FF99</color>   
+    <color name="YellowBG">#FFFF00</color>
+    <color name="YellowTxt">#FF0000</color>      
+    <color name="White">#FFFFFF</color>
+    <color name="Black">#000000</color>    
+   
+</resources>

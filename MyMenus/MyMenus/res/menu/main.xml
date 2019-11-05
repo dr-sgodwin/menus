@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.smg.mymenus.MainActivity" >
+    
+        <!-- menu items for backgroundcolor scheme -->
+    <item
+        android:id="@+id/color_menu"
+        android:showAsAction="ifRoom"
+        android:title="@string/colorscheme">
+        <menu>
+            <item
+                android:id="@+id/blue"
+                android:title="@string/blue"/>
+            <item
+                android:id="@+id/green"
+                android:title="@string/green"/>
+            <item
+                android:id="@+id/orange"
+                android:title="@string/orange"/>
+            <item
+                android:id="@+id/yellow"
+                android:title="@string/yellow"/>
+                        <item
+                android:id="@+id/standard"
+                android:title="@string/standard"/>
+        </menu>
+    </item>
+    
+    <!--  menu items for text size -->
+    <item
+        android:id="@+id/text_menu"
+        android:showAsAction="ifRoom"
+        android:title="@string/textsize">
+        <menu>
+            <item
+                android:id="@+id/text_sml"
+                android:title="@string/txt_sml"/>
+            <item
+                android:id="@+id/text_med"
+                android:title="@string/txt_med"/>
+            <item
+                android:id="@+id/text_lrg"
+                android:title="@string/txt_lrg"/>
+        </menu>
+    </item>
+
+</menu>
